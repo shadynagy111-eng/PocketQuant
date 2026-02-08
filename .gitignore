@@ -69,6 +69,12 @@ wandb/
 .ipynb_checkpoints/
 *-checkpoint.ipynb
 
+# Ignore everything in data...
+data/*
+
+# ...EXCEPT the README file
+!data/README.md
+
 # ==========================================
 # 🔑 Security & Config
 # ==========================================
