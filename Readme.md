@@ -2,9 +2,7 @@ Here is a professional, ready-to-copy **README.md** file for your GitHub reposit
 
 You can copy the code block below directly into a file named `README.md`.
 
----
 
-```markdown
 # 📉 PocketQuant: Lightweight Financial Reasoning
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
