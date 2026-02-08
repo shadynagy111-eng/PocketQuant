@@ -1,0 +1,91 @@
+# ==========================================
+# 🐍 Python & Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# ==========================================
+# 🧠 Machine Learning & Heavy Files
+# ==========================================
+# Exclude model weights (Too large for GitHub)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.h5
+
+# Exclude entire model directories (except their READMEs)
+models/*
+!models/README.md
+!models/**/README.md
+!models/**/adapter_config.json
+
+# Exclude raw datasets (Use scripts to download them instead)
+data/*
+!data/README.md
+
+# ==========================================
+# 📉 Training Logs & Artifacts
+# ==========================================
+# Hugging Face Cache
+.cache/
+hf_cache/
+
+# Unsloth / PEFT / Checkpoints
+output/
+outputs/
+runs/
+checkpoint-*/
+lora-adapters/
+
+# Weights & Biases (WandB) logs
+wandb/
+
+# ==========================================
+# 📓 Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# 🔑 Security & Config
+# ==========================================
+# NEVER commit your API keys
+.env
+.env.local
+kaggle.json
+secrets.json
+
+# ==========================================
+# 💻 IDE & System
+# ==========================================
+.idea/
+.vscode/
+*.swp
+.DS_Store
