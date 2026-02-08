@@ -46,10 +46,6 @@ models/*
 !models/**/README.md
 !models/**/adapter_config.json
 
-# Exclude raw datasets (Use scripts to download them instead)
-data/*
-!data/README.md
-
 # ==========================================
 # 📉 Training Logs & Artifacts
 # ==========================================
